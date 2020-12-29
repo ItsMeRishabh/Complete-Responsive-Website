@@ -1,0 +1,7 @@
+Added fonts from Google Fonts.
+Added Hover effects
+Added Visited effect
+Fully Working Buttons.
+Search Bar (doesn't work yet... to work have to some JS work)
+with Sticky Navigation Bar
+Fully Responsive !
