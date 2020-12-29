@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo img{
+    width: 180px;
+    height: 50%;
+    align-items: flex-start;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+width: 50%;
+display: flex;
+align-items: center;
+}
+.nav-list li{
+list-style: none;
+padding: 12px 10px;
+font-family: 'Noto Sans JP', sans-serif;
+}
+.nav-list li a{
+text-decoration: none;
+color: white;
+transition-duration: 0.5s;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: #2980b9;
+    transition-duration: 0.5s;
+    }
+.rightNav{
+    padding: 0 23px;
+    width: 50%;
+    text-align: right;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    font-family: 'Fira Sans', sans-serif;
+    border: 2px solid white;
+    color: white;
+    background: none;
+    border-radius: 25px;
+}
+#search:hover{
+    border: 2px solid white;
+    border-radius: 25px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(../bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    height: 85%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+}
+.firstHalf{
+width: 80%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.secondHalf{
+width: 30%;
+}
+.secondHalf img{
+    width: 140%;
+    padding: 4px 0;
+    display: block;
+    margin: 40px    ;
+}
+.text-big{
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+.text-small{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.red a{
+    color: white;
+    text-decoration: none;
+}
+.blue a{
+    color: white;
+    text-decoration: none;
+}
+.red a:visited{
+    color: white;
+    text-decoration: none;
+}
+.blue a:visited{
+    color: white;
+    text-decoration: none;
+}
+.red:hover{
+    color: white;
+    border: 2px solid red;
+    background: red;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+.blue:hover{
+    color: black;
+    background: #00b894;
+    border: 2px solid #00b894;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+.btn-sm{
+    font-weight: bold;
+    font-size: 12px;
+    background: none;
+    padding: 7px 10px;
+    border: 2px solid white;
+    border-radius: 25px;
+    vertical-align: middle;
+    transition-duration: 0.5s;
+}
+.btn-sm:hover{
+    background: white;
+    color: black;
+    transition-duration: 0.5s;
+}
